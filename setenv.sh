@@ -1,10 +1,14 @@
+mkdir dependencies
+cd dependencies
+git clone https://github.com/shmsw25/FActScore.git
+git clone https://github.com/sylinrl/TruthfulQA.git
 cd scripts
 mv * ..
 cd ..
 cd src
 mv * ..
 cd ..
-cd Dependencies
+cd dependencies
 mv FActScore ..
 cd ..
 cd data/processed_retrieval_data
