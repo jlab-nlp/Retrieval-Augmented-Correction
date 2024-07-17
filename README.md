@@ -1,4 +1,4 @@
-Improve-Factuality-with-Retrieval-and-Correction
+# Improve-Factuality-with-Retrieval-and-Correction
 
 Implementation for paper: Improving Factuality with Retrieval and Correction
 
@@ -9,8 +9,6 @@ Implementation for paper: Improving Factuality with Retrieval and Correction
 ```
 
 If you have python pakage installation issues, just rerun ./setup.sh after ./setenv.sh to debug.
-
-
 
 ## Running the Inference
 
@@ -81,15 +79,14 @@ See many scripts examples usage of this.
 ### Evaluate on truthfulqa
 
 ```shell
-# Note you need modify the python path into your python path in those 2 files.
+# Note that you need modify the python path into your python path in set_truthfulqa_eval.sh
 ./set_truthfulqa_eval.sh
-python3 --output_path "your model output path"
+python3 truthfulqa_evaluator.py --output_path "your model output path"
 ```
 
 ### Evaluate on factscore
 
 ```shell
-# Note you need modify the python path into your python path in those 2 files.
 ./setup_fact.sh
 python3 factscore_evaluator.py --output_path "your model output path" --model_name "your model name"
 ```
