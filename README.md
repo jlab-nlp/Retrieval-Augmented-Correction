@@ -1,6 +1,6 @@
-# Improve-Factuality-with-Retrieval-and-Correction
+# Retrieval-Augmented-Correction
 
-Implementation for paper: Improving Factuality with Retrieval and Correction
+Implementation for paper: RAC: Efficient LLM Factuality Correction with Retrieval Augmentation
 
 ## Environment Set Up
 
